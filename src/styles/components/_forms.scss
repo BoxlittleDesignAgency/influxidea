@@ -1,0 +1,165 @@
+.form-control {
+  padding-left: 0.3rem!important;
+  padding-right: 0.3rem!important;
+}
+
+  input:focus, textarea:focus {
+    outline: none!important;
+  }
+
+  input[type="text"], textarea {
+    outline: none;
+    box-shadow:none !important;
+  }
+
+  .blue {
+    background: $accent; 
+    background: -webkit-linear-gradient(right, $accent, $dark-accent);
+    background: -moz-linear-gradient(right, $accent, $dark-accent);
+    background: -o-linear-gradient(right, $accent, $dark-accent);
+    background: linear-gradient(to left, $accent, $dark-accent);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#000!important;
+    box-shadow: 0 15px 60px rgba(0,0,0, 0.20);
+  }
+
+  #exampleEmail, #examplePass, #signupName, #signupEmail, #signupPhone, #signupPass, #signupPassConf, #contactName, #contactEmail, #contactSubject, #contactText {
+    outline: none;
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: #000;
+    background-color: #ffffff;
+    box-shadow: none!important;
+    border: 0;
+    border-radius: 0!important;
+    border-bottom: 1px solid #201902;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#exampleEmail:focus, #examplePass:focus, #signupEmail:focus, #signupPass:focus, #signupPassConf:focus, #signupPhone:focus, #signupName:focus, #contactName:focus, #contactEmail:focus, #contactSubject:focus, #contactText:focus {
+  border-bottom: 1px solid #000 !important;
+  outline: none!important;
+  transition: 0.4s;
+}
+
+  .blue {
+    color:#000!important;
+    box-shadow: 0 15px 60px rgba(0,0,0, 0.20);
+  }
+
+  .black {
+    background-color:#fff;
+    box-shadow: 0 15px 60px rgba(0,0,0, 0.20);
+  }
+
+  .form-h3 {
+    font-size: 1.8em;
+  }
+
+  .blue p {
+    font-weight: 400;
+    color:#fff;
+  }
+
+  .login-btn {
+    border-radius: 0!important;
+    padding: 0.5rem 1.1rem;
+  }
+  
+  .black h2 {
+    padding-top : 5rem;
+    padding-bottom: 1rem ;
+    padding-left: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .login-btn {
+    color: #fff;
+    text-transform: uppercase;
+    outline: 0;
+    background: $primary;
+    width: 40%;
+    border: 0;
+  }
+
+
+::-webkit-input-placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+
+.signup-cta-btn {
+  line-height: 1.4;
+}
+
+
+.contact-button, .signup-cta-btn, .button_universal {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #FF2414;
+  border: none;
+  border-radius: 0;
+  padding: 0.75rem 1.75rem;
+  -webkit-box-shadow: 0px 5px 10px -4px rgba(255,36,20,1);
+  -moz-box-shadow: 0px 5px 10px -4px rgba(255,36,20,1);
+  box-shadow: 0px 5px 10px -4px rgba(255,36,20,1);
+}
+
+.contact-button:hover, .signup-cta-btn:hover, .button_universal:hover {
+  cursor: pointer;
+  background: #E52012;
+  -webkit-transform: scale(1.025);
+  -moz-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.frs-btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #E6873C;
+  border: none;
+  border-radius: 0;
+  padding: 0.75rem 1.75rem;
+  -webkit-box-shadow: 0px 5px 10px -4px rgba(219,156,54,1);
+  -moz-box-shadow: 0px 5px 10px -4px rgba(219,156,54,1);
+  box-shadow: 0px 5px 10px -4px rgba(219,156,54,1);
+}
+
+.frs-btn:hover {
+  cursor: pointer;
+  background: rgb(228, 108, 17);
+  -webkit-transform: scale(1.025);
+  -moz-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.crs-btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #8C319B;
+  border: none;
+  border-radius: 0;
+  padding: 0.75rem 1.75rem;
+  -webkit-box-shadow: 0px 5px 10px -4px rgb(192, 49, 214);
+  -moz-box-shadow: 0px 5px 10px -4px rgb(192, 49, 214);
+  box-shadow: 0px 5px 10px -4px rgb(192, 49, 214);
+}
+
+.crs-btn:hover {
+  cursor: pointer;
+  background: rgb(161, 70, 175);
+  -webkit-transform: scale(1.025);
+  -moz-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+

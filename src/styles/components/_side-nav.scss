@@ -1,0 +1,238 @@
+.dash-overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 6em;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.dash-overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.dash-overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818;
+  display: block;
+  transition: 0.3s;
+}
+
+.dash-overlay a:hover, .dash-overlay a:focus {
+  color: #fff!important;
+  display: block;
+}
+
+.dash-overlay .closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer
+}
+
+@media screen and (max-height: 450px) {
+  .dash-overlay a {
+    font-size: 20px;
+  }
+  .dash-overlay .closeBtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+/*-------------------------------*/
+/*       Hamburger-Cross         */
+/*-------------------------------*/
+
+.hamburger {
+  position: fixed;
+  top: 20px;  
+  z-index: 999;
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-left: 15px;
+  background: transparent;
+  border: none;
+}
+.hamburger:hover,
+.hamburger:focus,
+.hamburger:active {
+  outline: none;
+}
+.hamburger.is-closed:before {
+  content: '';
+  display: block;
+  width: 100px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 32px;
+  text-align: center;
+  opacity: 0;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+}
+.hamburger.is-closed:hover:before {
+  opacity: 1;
+  display: block;
+  transform: translate3d(-100px,0,0);
+  -webkit-transform: translate3d(-100px,0,0);
+  transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+}
+
+.hamburger.is-closed .hamb-top,
+.hamburger.is-closed .hamb-middle,
+.hamburger.is-closed .hamb-bottom,
+.hamburger.is-open .hamb-top,
+.hamburger.is-open .hamb-middle,
+.hamburger.is-open .hamb-bottom {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 100%;
+}
+.hamburger.is-closed .hamb-top,
+.hamburger.is-closed .hamb-middle,
+.hamburger.is-closed .hamb-bottom {
+  background-color: #1a1a1a;
+}
+.hamburger.is-closed .hamb-top { 
+  top: 5px; 
+  transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+}
+.hamburger.is-closed .hamb-middle {
+  top: 50%;
+  margin-top: -2px;
+}
+.hamburger.is-closed .hamb-bottom {
+  bottom: 5px;  
+  transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+}
+
+.hamburger.is-closed:hover .hamb-top {
+  top: 0;
+  transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+}
+.hamburger.is-closed:hover .hamb-bottom {
+  bottom: 0;
+  transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+}
+.hamburger.is-open .hamb-top,
+.hamburger.is-open .hamb-middle,
+.hamburger.is-open .hamb-bottom {
+  background-color: #1a1a1a;
+}
+.hamburger.is-open .hamb-top,
+.hamburger.is-open .hamb-bottom {
+  top: 50%;
+  margin-top: -2px;  
+}
+.hamburger.is-open .hamb-top { 
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transition: -webkit-transform .2s cubic-bezier(.73,1,.28,.08);
+  -webkit-transition: -webkit-transform .2s cubic-bezier(.73,1,.28,.08);
+}
+.hamburger.is-open .hamb-middle { display: none; }
+.hamburger.is-open .hamb-bottom {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transition: -webkit-transform .2s cubic-bezier(.73,1,.28,.08);
+  -webkit-transition: -webkit-transform .2s cubic-bezier(.73,1,.28,.08);
+}
+.hamburger.is-open:before {
+  content: '';
+  display: block;
+  width: 100px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 32px;
+  text-align: center;
+  opacity: 0;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+}
+.hamburger.is-open:hover:before {
+  opacity: 1;
+  display: block;
+  transform: translate3d(-100px,0,0);
+  -webkit-transform: translate3d(-100px,0,0);
+  transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+}
+
+
+/****************************
+   DASHHEADERNAV
+*******************************/
+.mini-card-list {
+	margin-top: 15px;
+	width: 100%;
+}
+.mini-card {
+	border: 5px solid #f8f8f8;
+	border-radius: 8px;
+	color: white;
+	float: left;
+	padding: 10px;
+	position: relative;
+	width: 25%;
+	.glyphicon {
+		color: white;
+		font-size: 28px;
+		opacity: 0.3;
+		position: absolute;
+		right: 13px;
+		top: 13px;
+	}
+	.stat {
+		border-top: 1px solid rgba(255, 255, 255, 0.3);
+		font-size: 8px;
+		margin-top: 25px;
+		padding: 10px 10px 0;
+		text-transform: uppercase;
+	}
+	.title {
+		display: inline-block;
+		font-size: 8px;
+		padding: 10px 10px 0;
+		text-transform: uppercase;
+	}
+	.value {
+		font-size: 28px;
+		padding: 0 10px;
+	}
+	&.mini-blue {
+		background-color: #2298F1;
+	}
+	&.mini-green {
+		background-color: #66B92E;
+	}
+	&.mini-orange {
+		background-color: #DA932C;
+	}
+	&.mini-red {
+		background-color: #D65B4A;
+	}
+}

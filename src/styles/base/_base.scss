@@ -1,0 +1,39 @@
+html, body {
+  //background-color: $white;
+  // color: $off-white;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  min-height: 100%;
+  font-family: 'Open sans', sans-serif;
+}
+
+body, html, div#app {
+  height: 100%;
+}
+
+// div#app  { 
+//   height: 100%;
+//   display: grid;
+//   grid-template-rows: 98px auto 100px;
+//   grid-template-areas: 
+//     "head"
+//     "right"
+//     "footer";
+// }
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+a {text-decoration: none;}
+a:link, a:visited {
+  cursor: pointer;
+  padding-bottom: .07em;
+  font-weight: 400;
+}
+ul { list-style-type: none;}

@@ -1,0 +1,15 @@
+.header {
+  // background: $dark-blue;
+  color: $off-black!important;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+@media (min-width: $desktop-breakpoint) {
+  
+}
+
+@media screen and (max-width: 40em) {
+  
+}

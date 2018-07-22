@@ -1,0 +1,85 @@
+.influx-Nv-Lk {
+    letter-spacing: 0.1em;
+    padding: 10px;
+    font-size: 1em !important;
+}
+
+.influx-Nv-Lk {
+    display: inline-block;
+}
+
+.influx-Nv-Lk a {
+    color: #000;
+}
+
+.imflux-Nv-Lk a:hover {
+    text-decoration: none !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: $off-black;
+    font-size: 0.9rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.navbar-dark .navbar-brand {
+    padding: 0px 10px!important;
+}
+
+.navHr {
+    border: 2px solid #2d3a4a;
+    display: block;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+.navbar-dark .navbar-brand:hover, .navHr:hover {
+    color: $white!important; 
+}
+
+.navbar-dark .navbar-brand:hover {
+  background-color: $primary!important;
+}
+
+button.navbar-toggler {
+    background-color: $off-black;
+}
+
+.navbar-collapse {
+    width: 400px;
+}
+
+.collapse .navbar-nav .nav-link {
+    color: $off-black;
+}
+
+.collapse .navbar-nav .nav-link:hover {
+    color: $off-red;
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+ul.navbar-nav .nav-item {
+    color: $off-black !important;
+    text-align: right; // width: 400px!important;
+}
+
+.nav-link a {
+    color: #000!important;
+}
+
+.navbar > .container {
+    display: -webkit-inline-box;
+}
+
+.influx-tc .nav-link a:hover {
+    text-decoration: none!important;
+}
+
+@media screen and (max-width: 40em) {}

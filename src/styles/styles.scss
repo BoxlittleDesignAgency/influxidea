@@ -1,0 +1,16 @@
+@import "~normalize-scss/sass/normalize";
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome.scss";
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import './base/_settings';
+@import './base/_base';
+
+@import './components/_loading.scss';
+@import './components/_nav';
+@import './components/_header';
+@import './components/_container';
+@import './components/_forms.scss';
+@import './components/_state-app.scss';
+//@import './components/_side-nav.scss';
+

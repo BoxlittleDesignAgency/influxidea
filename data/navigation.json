@@ -1,0 +1,33 @@
+[
+  {
+    "name": "About Us",
+    "url": "/about",
+    "color": "white"
+  },
+  {
+    "name": "Press",
+    "url": "/press",
+    "color": "white"
+  },
+  {
+    "name": "Jobs",
+    "url": "/jobs",
+    "color": "white"
+  },
+  {
+    "name": "Charities",
+    "url": "/charities",
+    "color": "blue"
+  },
+  {
+    "name": "Companies",
+    "url": "/companies",
+    "color": "blue"
+  },
+  {
+    "name": "Event Partners",
+    "url": "/epartners",
+    "color": "blue"
+  }
+
+]

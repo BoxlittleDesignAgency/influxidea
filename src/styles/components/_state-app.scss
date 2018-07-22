@@ -1,0 +1,39 @@
+.mcount-down {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border: 1px solid #f5b4c3;
+  background-color: #ffe0e7;
+}
+
+.mitems-search-term {
+  background-color: white;
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+
+.mitem-remove {
+  background-color: white;
+  color: #f65e81;
+  border: none;
+  margin-left: 1em;
+  outline: none;
+  padding: 0;
+}
+
+.mitem-remove:hover {
+  background-color: white;
+  text-decoration: underline;
+}
+
+.new-item {
+  display: flex;
+}
+
+.new-item-input {
+  width: 100%;
+} 
+
+.mstate-app {
+  margin: auto;
+  max-width: 400px;
+}

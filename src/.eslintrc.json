@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 7,
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "extends": ["plugin:react/recommended"],
+  "rules": {
+    "no-console":"off",
+    "no-unused-vars":"off",
+    "no-restricted-imports":"off",
+    "no-confusing-arrow":"off" 
+  }
+}

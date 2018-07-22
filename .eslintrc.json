@@ -1,0 +1,33 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-console":"off",
+    "no-restricted-imports":"off",
+    "no-unused-vars":"off",
+    "eqeqeq": "error",
+    "indent":[
+      "error",
+      2
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
+}
