@@ -709,6 +709,31 @@ h1 {
                   <img src="http://i345.photobucket.com/albums/p396/ruchi122/photo-1461418559055-6f020c5a91e7_zpsncjskvhv.jpg" className="img-responsive" />
                 </div>
 
+
+
+                <ul className="navbar-nav mr-auto">
+                <li className="nav-item active">
+                  <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">About Us</a>
+                </li>
+                <li className="nav-item dropdown">
+                  <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+                  </a>
+                  <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a className="dropdown-item" href="#">Start Fundraising</a>
+                    <a className="dropdown-item" href="#">About Us</a>
+                    <a className="dropdown-item" href="#">Another action</a>
+                    <div className="dropdown-divider"></div>
+                    <a className="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+
+
+
 <div class="card"></div>
 <div class="card card-1"></div>
 
