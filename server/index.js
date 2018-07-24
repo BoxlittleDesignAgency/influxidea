@@ -7,19 +7,21 @@ import cors from 'cors';
 import bodyParser from 'body-parser';
 import logger from 'morgan';
 import path from 'path';
-import config from '../webpack.config.dev.babel';
+import webpackConfig from '../webpack.config.dev.babel';
+import config from '../config/config';
 
 
 import serverRender from './serverRender';
 
 const port = process.env.PORT || 8080;
+const isDev = process.env.NODE_ENV !== 'production';
 const app = express();
 
 
 const useServerRender = argv.useServerRender === 'true';
 
-if(process.env.NODE_ENV === 'development') {
-  const compiler = webpack(config);
+if(isDev) {
+  const compiler = webpack(webpackConfig);
 
   app.use(require('webpack-dev-middleware')(compiler, {
     /**
