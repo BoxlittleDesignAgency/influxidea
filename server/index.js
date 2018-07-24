@@ -1,13 +1,14 @@
-const express =  require('express');
+import express from 'express';
 //const yields  = require('express-yields');
 const fs  = require('fs');
-const webpack =  require('webpack');
-const {argv}  = require('optimist');
-const cors = require('cors');
-const bodyParser = require('body-parser');
-const logger = require('morgan');
-const path = require('path');
-const webpackConfig = require('../webpack.config.dev.babel');
+import webpack from 'webpack';
+import {argv}  from 'optimist';
+import cors from 'cors';
+import bodyParser from 'body-parser';
+import logger from 'morgan';
+import path from 'path';
+import webpackConfig from '../webpack.config.dev.babel';
+
 //const config = require('../config/config');
 
 
