@@ -1,9 +1,10 @@
 {
-  "name": "responsive-grid",
+  "name": "influxidea",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Demola Adebayo",
   "license": "MIT",
+  "description": "Influxidea - where ideas comes alive",
   "scripts": {
     "dev": "npm-run-all --parallel dev:*",
     "start:dev": "nodemon --exec babel-node server/ --watch",
@@ -48,6 +49,9 @@
     "react-hot-loader": "^4.0.0",
     "react-test-renderer": "^16.2.0",
     "webpack-bundle-analyzer": "^2.11.1"
+  },
+  "repository": {
+    "url": "https://github.com/BoxlittleDesignAgency/influxidea"
   },
   "dependencies": {
     "@types/webpack-env": "^1.13.6",
