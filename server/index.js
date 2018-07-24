@@ -8,7 +8,7 @@ import bodyParser from 'body-parser';
 import logger from 'morgan';
 import path from 'path';
 import webpackConfig from '../webpack.config.dev.babel';
-import config from '../config/config';
+//import config from '../config/config';
 
 
 import serverRender from './serverRender';

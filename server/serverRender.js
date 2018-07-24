@@ -19,7 +19,8 @@ const renderCondition = (req, res) => {
     initialEntries: [req.path],
 });
 
-  return (<StaticRouter  
+  return (
+  <StaticRouter  
     location={req.url}
     context={context}>
   <InfluxideaHome /> 
