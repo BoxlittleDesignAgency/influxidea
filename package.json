@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "npm-run-all --parallel dev:*",
     "start:dev": "nodemon --exec babel-node server/ --watch",
-    "dev:start": "cross-env NODE_ENV=development babel-node server --colors  --useServerRender=true --watch",
+    "dev:start": "cross-env NODE_ENV=production babel-node server --colors  --useServerRender=true --watch",
     "concur": "concurrently \"yarn run dev:start\"  \"yarn run webhook\" ",
     "dev:build": "webpack --config webpack.config.dev.babel.js --progress --profile --colors -wd",
     "serve": "live-server public/",
