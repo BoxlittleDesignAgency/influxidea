@@ -1,17 +1,17 @@
-import express from 'express';
-import yields from 'express-yields';
-import fs from 'fs-extra';
-import webpack from 'webpack';
-import {argv} from 'optimist';
-import cors from 'cors';
-import bodyParser from 'body-parser';
-import logger from 'morgan';
-import path from 'path';
-import webpackConfig from '../webpack.config.dev.babel';
-//import config from '../config/config';
+const express =  require('express');
+const yields  = require('express-yields');
+const fs  = require('extra');
+const webpack =  require('webpack');
+const {argv}  = require('optimist');
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const logger = require('morgan');
+const path = require('path');
+const webpackConfig = require('../webpack.config.dev.babel');
+//const config = require('../config/config');
 
 
-import serverRender from './serverRender';
+const serverRender = require('./serverRender');
 
 const port = process.env.PORT || 8080;
 const isDev = process.env.NODE_ENV !== 'production';
