@@ -16,7 +16,7 @@ import webpackConfig from '../webpack.config.dev.babel';
 
 const serverRender = require('./serverRender');
 
-const port = process.env.PORT || 8081;
+const port = process.env.PORT || 8080;
 const isDev = process.env.NODE_ENV !== 'production';
 const app = express();
 
