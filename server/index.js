@@ -85,4 +85,5 @@ app.get([
 app.listen(port, '0.0.0.0', (err) => {
   console.log(err || 'Server Online');
   console.info(`App listening on ${port}`);
+  console.info('>>> 🌎 Open http://0.0.0.0:%s/ in your browser.', port);
 });
